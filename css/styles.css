@@ -15,6 +15,7 @@
     text-decoration: none;
     z-index: 1;
   }
+  
   .cyan-text{
     font-size: 15vw;
     color:black;
@@ -85,137 +86,6 @@
 		width: 100%;
 		top: 0;
 		left: 0;
-	}
-
-	divMoveRight {
-		animation-fill-mode: forwards !important;
-		position: relative;
-		animation-name: moveRight;
-		animation-duration: 5s;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
-
-	@keyframes moveRight {
-		0% {
-			right: 80vw;
-			top: 20vw;
-		}
-
-		25% {
-			right: 0;
-			top: 0;
-		}
-
-		100% {
-			right: 0;
-			top: 0;
-		}
-	}
-
-	divMoveLeft {
-		animation-fill-mode: forwards !important;
-		position: relative;
-		animation-name: moveLeft;
-		animation-duration: 3s;
-	}
-
-	@keyframes moveLeft {
-		0% {
-			left: 150vw;
-			top: -90vw;
-		}
-
-		50% {
-			left: 0;
-			top: 0;
-		}
-
-		100% {
-			left: 0;
-			top: 0;
-		}
-	}
-
-	divMoveDown {
-		animation-fill-mode: forwards !important;
-		width: 100vw;
-		height: 100vw;
-		position: relative;
-		animation-name: moveDown;
-		animation-fill-mode: none;
-		animation-duration: 2s;
-	}
-
-	@keyframes moveDown {
-		0% {
-			left: 0vw;
-			top: -200vw;
-		}
-
-		50% {
-			left: 0vw;
-			top: 0vw;
-		}
-
-		100% {
-			left: 0vw;
-			top: 0vw;
-		}
-	}
-
-	divMoveDown2 {
-		animation-fill-mode: forwards !important;
-		width: 100vw;
-		height: 100vw;
-		position: relative;
-		animation-name: moveDown2;
-		animation-fill-mode: none;
-		animation-duration: 2s;
-	}
-
-	@keyframes moveDown2 {
-		0% {
-			left: 0vw;
-			top: 100vw;
-		}
-
-		25% {
-			left: 0vw;
-			top: -17vw;
-		}
-
-		100% {
-			left: 18vw;
-			top: -17vw;
-		}
-	}
-
-	divMoveUp {
-		animation-fill-mode: forwards !important;
-		width: 100px;
-		height: 100px;
-		position: relative;
-		animation-name: moveUp;
-		animation-duration: 5s;
-	}
-
-	@keyframes moveUp {
-		0% {
-			left: 0vw;
-			top: 100vw;
-		}
-
-		25% {
-			left: 0vw;
-			top: 20vw;
-		}
-
-		100% {
-			left: 0vw;
-			top: 20vw;
-		}
 	}
 
 	@font-face {
