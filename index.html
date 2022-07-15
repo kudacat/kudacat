@@ -3,7 +3,7 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/styles.css"/>
+	<link rel="stylesheet" href="css/styles.css" />
 	<link rel="icon" href="">
 	<title>kudako</title>
 </head>
@@ -12,34 +12,25 @@
 	<div class="myClass">
 		<img src="images/kudako.gif" alt="">
 	</div>
-	<div id="myNavBtns">
-		<button onclick="frontTime()" id="myFrontBtn">DJ_SETS</button>
-		<button onclick="lyricTime()" id="myLyricBtn">MUSIC</button>
-		<button onclick="backTime()" style="display:none;" id="myBackBtn">VLOGS</button>
-		<button onclick="pReelTime()" style="display:none;" id="myPReelBtn">UPCOMING</button>
+	<!-- <span id="dj_set" class="cntr">
+		<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2FSOONSPINS%2F_maux-means-evils%2F" frameborder="0"></iframe>
+	</span> -->
+	<div class="right-button">
+		<button id="set_button" type="button">sets</button>
 	</div>
-	<span id="moreFront">
-		<p>
-			<span class="cyan-text">
-				>_MAUX MEANS EVILS
-			</span>
-			<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2FSOONSPINS%2F_maux-means-evils%2F" frameborder="0"></iframe>
-		</p>
-	</span>
-	<span id="moreLyrics">
-		<p>
-			<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
-				src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1258177798&color=%2342dae0&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=false">
-			</iframe>
-			<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
-				<a href="https://soundcloud.com/iammaux" title="M A U X" target="_blank" style="color: #cccccc; text-decoration: none;">M A U X</a> · <a href="https://soundcloud.com/iammaux/sets/new-music" title="NEW MUSIC" target="_blank" style="color: #cccccc; text-decoration: none;">NEW MUSIC</a>
-			</div>
-		</p>
-	</span>
-	<span id="moreBack">
-	</span>
+	<div class="left-button">
+		<button id="music_button" type="button">music</button>
+	</div>
+	<!-- <span id="music" class="cntr">
+		<iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay"
+			src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1258177798&color=%2342dae0&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+		</iframe>
+		<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;">
+			<a href="https://soundcloud.com/iammaux" title="M A U X" target="_blank" style="color: #cccccc; text-decoration: none;">M A U X</a> · <a href="https://soundcloud.com/iammaux/sets/new-music" title="NEW MUSIC" target="_blank" style="color: #cccccc; text-decoration: none;">NEW MUSIC</a>
+		</div>
+	</span> -->
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/scripts.js"></script>
 
 </html>
