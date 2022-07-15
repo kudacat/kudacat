@@ -12,8 +12,8 @@ window.onload = function() {
 		}else{
 			if($("#music").is(":visible")) $("#music").hide();
 			$("#dj_set").show();
-			$(".right-button").animate({top: '20vh'});
-			$(".left-button").animate({top: '20vh'});
+			$(".right-button").animate({top: '0vh'});
+			$(".left-button").animate({top: '0vh'});
 		}
 	});
 	$("#music_button").click(function(){
@@ -24,8 +24,8 @@ window.onload = function() {
 			$(".right-button").animate({top: '60vh'});
 		}else{
 			$("#music").show();
-			$(".right-button").animate({top: '20vh'});
-			$(".left-button").animate({top: '20vh'});
+			$(".right-button").animate({top: '0vh'});
+			$(".left-button").animate({top: '0vh'});
 			if($("#dj_set").is(":visible")) $("#dj_set").hide();
 		}
 	});
