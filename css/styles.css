@@ -51,9 +51,9 @@ body {
 
 button {
   width: 50vw;
-  height: 25vh;
+  height: 10vh;
   color: #22ff00;
-  background-color: rgb(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 0);
   font-size: 32px;
 	border: none;
   font-family: fontBoi;
@@ -64,7 +64,7 @@ button {
   top: 60vh;
   left: 0vh;
   width: 50%;
-  height: 25%;
+  height: 10vh;
 }
 
 .right-button {
@@ -72,7 +72,7 @@ button {
   top: 60vh;
   right: 0vh;
   width: 50%;
-  height: 25%;
+  height: 10vh;
 }
 
 .cntr {

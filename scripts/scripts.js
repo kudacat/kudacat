@@ -2,7 +2,6 @@ window.onload = function() {
 
 "strict";
 	var str;
-
 	$("#set_button").click(function(){
 
 		if($("#dj_set").is(":visible"))
