@@ -20,7 +20,7 @@ body {
 
 .linkies{
 	position: absolute;
-	top: 50%;
+	top: 25%;
 }
 
 .sub-linkies{
@@ -38,6 +38,9 @@ body {
 	font-family: fontBoi;
 	color: #a0ff00;
 	border: solid 1px grey;
+	border-radius: 16px;
+	margin: 16px;
+	width: 80%;
 	padding: 16px;
 	font-size: 32px;
 	text-decoration: none;
