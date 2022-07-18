@@ -17,6 +17,22 @@ body {
 	width: 100vw;
 	height: 100vh;
 }
+
+.linkies{
+	position: relative;
+	top: 55%;
+}
+
+.linkies a{
+	background-color: rgba(0, 0, 0, .75);
+	font-family: fontBoi;
+	color: #a0ff00;
+	border: solid 1px grey;
+	padding: 16px;
+	font-size: 32px;
+	text-decoration: none;
+}
+
 .myClass {
   z-index: -100;
   position: fixed;
@@ -42,17 +58,21 @@ body {
 }
 
 #music {
-  display: inline;
+  display: none;
+}
+
+#links{
+	display: inline;
 }
 
 button {
   color: #22ff00;
 	background-color: rgba(0, 0, 0, 0);
   font-size: 32px;
+	font-family: fontBoi;
 	/* border: 1px solid #a0ff00; */
 	width: 100%;
 	height: 100%;
-  font-family: fontBoi;
 }
 
 .button-container{
