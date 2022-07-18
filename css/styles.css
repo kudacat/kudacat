@@ -27,7 +27,6 @@ body {
   background-color: rgba(0, 0, 0);
   overflow-x: hidden;
 }
-
 .myClass {
   z-index: -100;
   position: fixed;
@@ -35,8 +34,17 @@ body {
 }
 
 .myClass img {
-  width: 100vw;
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+}
+
+.main{
+	position: relative;
+	border: 1px solid #a0ff00;
+  padding: 1rem;
   height: 100vh;
+	width: 100vw;
 }
 
 #dj_set {
@@ -50,8 +58,8 @@ body {
 }
 
 button {
-  width: 50vw;
-  height: 10vh;
+  width: 16px;
+  height: 32px;
   color: #22ff00;
 	background-color: rgba(0, 0, 0, 0);
   font-size: 32px;
@@ -59,25 +67,27 @@ button {
   font-family: fontBoi;
 }
 
-.left-button {
-  position: absolute;
-  top: 60vh;
-  left: 0vh;
-  width: 50%;
-  height: 10vh;
+.button-container{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+  height: 10%;
+  /* border: 1px solid #a0ff00; */
+  display: flex;
+  justify-content: space-around;
 }
 
-.right-button {
-  position: absolute;
-  top: 60vh;
-  right: 0vh;
-  width: 50%;
-  height: 10vh;
+.button {
+	padding: 16px;
+	width: 70px;
+	height: 70px;
 }
 
-.cntr {
+.content {
   position: absolute;
-  top: 30%;
-  transform: translate(20%, -50%);
-  width: 70%;
+  top: 20%;
+	left: 10%;
+  width: 80%;
+	height: 100%;
 }
