@@ -42,7 +42,7 @@ body {
 }
 
 #music {
-  display: none;
+  display: inline;
 }
 
 button {
@@ -71,7 +71,8 @@ button {
 }
 
 .content {
-  position: absolute;
+  position: relative;
+	overflow-x: hidden;
 	border-radius: 16px;
   top: 5%;
 	left: 10%;
