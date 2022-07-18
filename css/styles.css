@@ -30,12 +30,9 @@ body {
 }
 
 .main{
+	text-align: center;
 	position: relative;
-	top: 0px;
-	left: 0px;
-	border: 4px solid #a0ff00;
-	padding: none;
-	margin: auto;
+	border: 1px solid #a0ff00;
   height: 100vh;
 	width: 100vw;
 }
@@ -49,12 +46,12 @@ body {
 }
 
 button {
-  width: 16px;
-  height: 32px;
   color: #22ff00;
 	background-color: rgba(0, 0, 0, 0);
   font-size: 32px;
-	border: none;
+	/* border: 1px solid #a0ff00; */
+	width: 100%;
+	height: 100%;
   font-family: fontBoi;
 }
 
@@ -62,18 +59,15 @@ button {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	width: 90%;
-  height: 15%;
+	width: 100%;
+  height: 10%;
   display: flex;
   justify-content: space-evenly;
 }
 
 .button {
-	position: relative;
-	text-align: center;
-	padding: 16px;
-	width: 30%;
-	height: 30%;
+	width: 50%;
+	height: 100%;
 }
 
 .content {
