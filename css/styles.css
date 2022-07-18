@@ -71,8 +71,8 @@ button {
 }
 
 .content {
-  position: relative;
-	overflow-x: hidden;
+  /* position: relative; */
+	position: absolute;
 	border-radius: 16px;
   top: 5%;
 	left: 10%;
