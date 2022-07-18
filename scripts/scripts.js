@@ -21,12 +21,12 @@ window.onload = function() {
 		{
 			$("#music").hide();
 		}else{
-			$("#music").show();
 			str = $("#mixcloud_iframe").attr("src");
 			$("#mixcloud_iframe").attr("src", str);
 			if($("#dj_set").is(":visible")){
 				$("#dj_set").hide();
 			}
+			$("#music").show();
 		}
 	});
 };
