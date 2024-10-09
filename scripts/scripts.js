@@ -12,8 +12,6 @@ window.onload = function() {
 			$("#soundcloud_iframe").attr("src", str);
 			if($("#music").is(":visible")){
 				$("#music").hide();
-			}else if($("#links").is(":visible")){
-				$("#links").hide();
 			}
 			$("#dj_set").show();
 		}
@@ -27,8 +25,6 @@ window.onload = function() {
 			$("#mixcloud_iframe").attr("src", str);
 			if($("#dj_set").is(":visible")){
 				$("#dj_set").hide();
-			}else if($("#links").is(":visible")){
-				$("#links").hide();
 			}
 			$("#music").show();
 		}
