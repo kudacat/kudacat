@@ -33,17 +33,4 @@ window.onload = function() {
 			$("#music").show();
 		}
 	});
-	$("#links_button").click(function(){
-		if($("#links").is(":visible"))
-		{
-			$("#links").hide();
-		}else{
-			if($("#dj_set").is(":visible")){
-				$("#dj_set").hide();
-			}else if($("#music").is(":visible")){
-				$("#music").hide();
-			}
-			$("#links").show();
-		}
-	});
 };
