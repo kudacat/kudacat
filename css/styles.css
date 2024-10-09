@@ -58,6 +58,7 @@ body {
 	width: 80%;
 	padding: 16px;
 	font-size: 32px;
+	display: inline-block;
 	text-decoration: none;
 	z-index: 1;
 }
